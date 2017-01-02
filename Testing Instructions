@@ -1,0 +1,18 @@
+ a WAR file (or Web application ARchive) is added for testing the Application based on REST API.
+ 
+ These are the spteps to run and test the war using Apache Tomcat (7 or later versions) in Windows Operating System.
+ 1. Find the webapps folder for your Apache server direcory.
+ 2. Download the REST.war file (from this repository) and save it to that webapps folder.
+ 3. Now, run cmd.exe and go to the bin folder for your Apache server direcory.
+ 4. Write startup.bat and hit enter. This will start your apache server and deploy the REST war on server.
+ 5. Open a browser to send GET requests to your newly started server.
+ 6. Type "http://localhost:8080/REST/TemperatureConverter/celsiustofahrenheit/" in your browser and hit enter. 
+ This will display a convertion of a default value.
+ 7. To test a convertion of a celsius value 50, use "http://localhost:8080/REST/TemperatureConverter/celsiustofahrenheit/50" 
+ and hit enter.
+ 8. In a similar manner, we can test fahrenheit to celsius convertion using
+ "http://localhost:8080/REST/TemperatureConverter/fahrenheittocelsius/" for default value and
+ "http://localhost:8080/REST/TemperatureConverter/fahrenheittocelsius/120" for fahrenheit value 120.
+ 
+ Please feel free to contact me on sshubhadeep@gmail.com for any issues while running and testing the war file.
+ 
