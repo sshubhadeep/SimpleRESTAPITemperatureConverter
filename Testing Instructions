@@ -14,5 +14,7 @@
  "http://localhost:8080/REST/TemperatureConverter/fahrenheittocelsius/" for default value and
  "http://localhost:8080/REST/TemperatureConverter/fahrenheittocelsius/120" for fahrenheit value 120.
  
+ The output data will be in XML format. For simplicity I kept the same order of XML elements for both the convertion output.
+ 
  Please feel free to contact me on sshubhadeep@gmail.com for any issues while running and testing the war file.
  
